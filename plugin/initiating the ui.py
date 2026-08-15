@@ -1,0 +1,5 @@
+import importlib
+import agrivoltaic_plugin
+importlib.reload(agrivoltaic_plugin)
+
+agrivoltaic_plugin.launch_panel(iface)
