@@ -1,5 +1,14 @@
 # The Agrivoltaic Optimizer
 
+## 31. Academic Context
+
+- **Program:** M.Sc. Agriculture Analytics
+- **Institutions:** IIRS-ISRO, Dehradun & DAU Gandhinagar
+- **Study Area:** Jodhpur District, Rajasthan
+- **Project:** The Agrivoltaic Optimizer
+- **Team:**
+
+
 ## 1. Overview
 
 Hybrid spatial-intelligence system for identifying optimal land zones for combined solar-energy and agriculture (agrivoltaic) development.
@@ -307,53 +316,6 @@ Too large for normal repo storage — hosted separately on Google Drive:
 
 **Google Drive folder:** *Agrivoltaic Optimizer — Large Files* — **[ADD YOUR DRIVE LINK HERE]**
 
-> ⚠️ Note: source doc had no real Drive URL, only a broken citation placeholder. Paste your actual shareable link in above.
-
-## 24. How to Use the Repository
-
-**Step 1 — Clone the Repository**
-Clone the GitHub repository to your local machine.
-
-**Step 2 — Download Large Files**
-Download required large datasets from the project Google Drive folder.
-
-**Step 3 — Place the Data**
-Place each dataset into its corresponding directory:
-
-```
-data/
-├── dem/
-│   └── merged_dem.tif
-│
-├── lulc/
-│   └── Lulc_jodhpur(updated one).tif
-│
-├── grid_distance/
-│   └── grid_distance.tif
-│
-└── road_distance/
-    └── road_distance.tif
-```
-
-**Step 4 — Review the Processing Notebook**
-`scripts/agrivoltaic_optimizer.ipynb`
-
-**Step 5 — View the Outputs**
-`outputs/rasters/`
-
-**Step 6 — View the Dashboard**
-`outputs/agrivoltaic_dashboard_.html`
-
-## 25. Interactive GIS Component
-
-PyQGIS-based interactive dashboard for use within QGIS, plus a standalone HTML visualization for web-based exploration:
-
-```
-QGIS / PyQGIS
-       +
-HTML / Leaflet
-```
-
 ## 26. Reproducibility
 
 Organized for reproduction using provided input datasets, processing notebook, spatial boundary, raster outputs, plugin source code, and documentation. Methodology is district-agnostic in concept — swap the AOI boundary to adapt to another region with equivalent datasets.
@@ -400,13 +362,7 @@ Demonstrates how spatial data and ML can support sustainable land-use decisions 
 - scikit-learn
 - Rasterio
 
-## 31. Academic Context
 
-- **Program:** M.Sc. Agriculture Analytics
-- **Institutions:** IIRS-ISRO, Dehradun & DAU Gandhinagar
-- **Study Area:** Jodhpur District, Rajasthan
-- **Project:** The Agrivoltaic Optimizer
-- **Team:** Team Apex Spatial
 
 ## 32. Conclusion
 
