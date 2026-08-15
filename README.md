@@ -4,7 +4,7 @@
 
 - **Program:** M.Sc. Agriculture Analytics
 - **Study Area:** Jodhpur District, Rajasthan
-- **Members:** K. Yaswanthi, Sathvik, Himanshu
+- **Members:** K. Yaswanthi, Sathwik, Himanshu
 
 ## Large Files
 
