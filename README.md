@@ -4,7 +4,6 @@
 
 - **Program:** M.Sc. Agriculture Analytics
 - **Study Area:** Jodhpur District, Rajasthan
-- **Project:** The Agrivoltaic Optimizer
 - **Members:** K. Yaswanthi, Sathvik, Himanshu
 
 ## Large Files
