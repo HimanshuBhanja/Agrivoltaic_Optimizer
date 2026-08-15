@@ -1,13 +1,82 @@
 # The Agrivoltaic Optimizer
 
-## 31. Academic Context
+## Academic Context
 
 - **Program:** M.Sc. Agriculture Analytics
-- **Institutions:** IIRS-ISRO, Dehradun & DAU Gandhinagar
 - **Study Area:** Jodhpur District, Rajasthan
 - **Project:** The Agrivoltaic Optimizer
-- **Team:**
+- **Members:** K. Yaswanthi, Sathvik, Himanshu
 
+## Large Files
+
+Too large for normal repo storage — hosted separately on Google Drive:
+
+- `Lulc_jodhpur(updated one).tif`
+- `merged_dem.tif`
+- `grid_distance.tif`
+- `road_distance.tif`
+- `Screen demo of the PyQGIS dashboard.mp4`
+
+**Google Drive folder:** *Agrivoltaic Optimizer — Large Files* — **https://drive.google.com/drive/folders/1Cr6ZaOrBn4RWhjpJDDig9asa57VGeH9B?usp=sharing**
+
+## Repository Structure
+
+```
+Agrivoltaic_Optimizer/
+│
+├── dem/
+│   ├── merged_dem.vrt
+│   ├── SRTM DEM tiles
+│   └── README.md
+│
+├── grid_distance/
+│   ├── grid-distance source/intermediate data
+│   └── README/documentation
+│
+├── lulc/
+│   ├── lulc_jodhpur.tif
+│   └── README.md
+│
+├── road_distance/
+│   ├── road-distance source/intermediate data
+│   └── README/documentation
+│
+├── vectors/
+│   ├── Jodhpur boundary
+│   ├── simplified boundary
+│   └── README.md
+│
+├── docs/
+│   ├── Agrivoltaic_Optimizer_Report.docx
+│   ├── Project Proposal/
+│   │   ├── PROPOSAL.pdf
+│   │   └── README.md
+│   └── README.md
+│
+├── outputs/
+│   ├── agrivoltaic_dashboard_.html
+│   ├── K-Means Validation Elbow Method, Optimal K is 5.jpeg
+│   ├── rasters/
+│   │   ├── agrivoltaic_suitability.tif
+│   │   └── cluster_output (1).tif
+│   └── README.md
+│
+├── plugin/
+│   ├── agrivoltaic_plugin.py
+│   ├── initiating the ui.py
+│   └── suitability_initiating script.py
+│
+├── scripts/
+│   └── agrivoltaic_optimizer.ipynb
+│
+├── jodhpur_boundary/
+│
+├── smoothed_suitability.tif
+├── smoothed_suitability.tfw
+│
+├── .gitattributes
+└── .gitignore
+```
 
 ## 1. Overview
 
@@ -245,82 +314,11 @@ Stronger suitability associated with combinations of agricultural land, favorabl
 - **Spatial Database:** PostgreSQL, PostGIS, SQLAlchemy, psycopg2
 - **Visualization:** QGIS, PyQGIS, HTML5, Leaflet.js
 
-## 22. Repository Structure
-
-```
-Agrivoltaic_Optimizer/
-│
-├── dem/
-│   ├── merged_dem.vrt
-│   ├── SRTM DEM tiles
-│   └── README.md
-│
-├── grid_distance/
-│   ├── grid-distance source/intermediate data
-│   └── README/documentation
-│
-├── lulc/
-│   ├── lulc_jodhpur.tif
-│   └── README.md
-│
-├── road_distance/
-│   ├── road-distance source/intermediate data
-│   └── README/documentation
-│
-├── vectors/
-│   ├── Jodhpur boundary
-│   ├── simplified boundary
-│   └── README.md
-│
-├── docs/
-│   ├── Agrivoltaic_Optimizer_Report.docx
-│   ├── Project Proposal/
-│   │   ├── PROPOSAL.pdf
-│   │   └── README.md
-│   └── README.md
-│
-├── outputs/
-│   ├── agrivoltaic_dashboard_.html
-│   ├── K-Means Validation Elbow Method, Optimal K is 5.jpeg
-│   ├── rasters/
-│   │   ├── agrivoltaic_suitability.tif
-│   │   └── cluster_output (1).tif
-│   └── README.md
-│
-├── plugin/
-│   ├── agrivoltaic_plugin.py
-│   ├── initiating the ui.py
-│   └── suitability_initiating script.py
-│
-├── scripts/
-│   └── agrivoltaic_optimizer.ipynb
-│
-├── jodhpur_boundary/
-│
-├── smoothed_suitability.tif
-├── smoothed_suitability.tfw
-│
-├── .gitattributes
-└── .gitignore
-```
-
-## 23. Large Files
-
-Too large for normal repo storage — hosted separately on Google Drive:
-
-- `Lulc_jodhpur(updated one).tif`
-- `merged_dem.tif`
-- `grid_distance.tif`
-- `road_distance.tif`
-- `Screen demo of the PyQGIS dashboard.mp4`
-
-**Google Drive folder:** *Agrivoltaic Optimizer — Large Files* — **[ADD YOUR DRIVE LINK HERE]**
-
-## 26. Reproducibility
+## 22. Reproducibility
 
 Organized for reproduction using provided input datasets, processing notebook, spatial boundary, raster outputs, plugin source code, and documentation. Methodology is district-agnostic in concept — swap the AOI boundary to adapt to another region with equivalent datasets.
 
-## 27. Future Work
+## 23. Future Work
 
 - Integration of labeled field data
 - Random Forest classification
@@ -334,7 +332,7 @@ Organized for reproduction using provided input datasets, processing notebook, s
 
 Future ML stage can use labeled field data to move from unsupervised validation toward supervised prediction.
 
-## 28. Real-World Applications
+## 24. Real-World Applications
 
 - **Renewable Energy Developers** — spatial screening of potential agrivoltaic development zones
 - **Agricultural Planners** — identify agricultural areas where solar infrastructure may coexist with farming
@@ -342,7 +340,7 @@ Future ML stage can use labeled field data to move from unsupervised validation 
 - **Agricultural Extension** — support farmers/planners evaluating dual-use areas
 - **Sustainable Energy Planning** — balance renewable energy expansion with agricultural land preservation
 
-## 29. Project Significance
+## 25. Project Significance
 
 ```
 Agriculture + Geospatial Intelligence + Machine Learning
@@ -350,7 +348,7 @@ Agriculture + Geospatial Intelligence + Machine Learning
 
 Demonstrates how spatial data and ML can support sustainable land-use decisions — evaluating locations where solar development and agriculture can coexist rather than treating them as mutually exclusive.
 
-## 30. References and Data Sources
+## 36. References and Data Sources
 
 - GADM — Global Administrative Boundaries
 - USGS EarthExplorer — SRTM 1 Arc-Second Global DEM
@@ -364,7 +362,7 @@ Demonstrates how spatial data and ML can support sustainable land-use decisions 
 
 
 
-## 32. Conclusion
+## 27. Conclusion
 
 ```
 Geospatial Data → Raster Preprocessing → Normalization → MCDA Suitability Scoring
